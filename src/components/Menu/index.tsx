@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-
+import Logo from '../../assets/logo.png'
+import styles from './menu.module.scss'
 
 export default function Menu() {
     const routes = [{
@@ -20,7 +21,8 @@ export default function Menu() {
     }]
 
     return (
-        <nav>
+        <nav className={styles.menuContainer}>
+            <img src={Logo} alt="Logo Beauty Hats" />
             <ul>
                 {routes.map((route, index) => (
                     <li key={index}>
