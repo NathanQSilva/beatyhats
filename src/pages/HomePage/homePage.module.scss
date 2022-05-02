@@ -8,7 +8,6 @@
     align-items: center;
 
     .caroselContainer {
-        height: 350px;
         width: 100%;
 
         display: flex;
@@ -25,13 +24,13 @@
         }
 
         .carosel {
-            border: 1px solid red;
+            border: 1px solid $marrom-escuro;
+
+            position: static;
+
             width: 90%;
             height: 100%;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            margin: 20px 0;
         }
     }
 }
