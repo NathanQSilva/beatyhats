@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Chapeus de praia",
+        "description": "Combo de chapeus de todos os tipos",
+        "photo": "/assets/fotos/promos/promo-01.png"
+    },
+    {
+        "id": 2,
+        "title": "Chapeus classicos",
+        "description": "Combo de chapeus de todos os tipos",
+        "photo": "/assets/fotos/promos/promo-02.png"
+    },
+    {
+        "id": 3,
+        "title": "Chapeus coco",
+        "description": "Combo de chapeus de todos os tipos",
+        "photo": "/assets/fotos/promos/promo-03.png"
+    },
+    {
+        "id": 4,
+        "title": "Chapeus famosos",
+        "description": "Combo de chapeus de todos os tipos",
+        "photo": "/assets/fotos/promos/promo-04.png"
+    }
+]

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import Logo from '../../assets/logo.png'
-import styles from './menu.module.scss'
+import Logo from '../assets/logo.png'
 
 export default function Menu() {
     const routes = [{
@@ -21,12 +20,12 @@ export default function Menu() {
     }]
 
     return (
-        <nav className={styles.menuContainer}>
-            <img src={Logo} alt="Logo Beauty Hats" />
-            <ul>
+        <nav className='flex flex-row justify-between items-center bg-amber-50'>
+            <img src={Logo} alt="Logo Beauty Hats" className='h-16 ml-8' />            
+            <ul className='flex flex-row justify-between items-center mr-8 w-auto'>
                 {routes.map((route, index) => (
-                    <li key={index}>
-                        <Link to={route.to}>
+                    <li key={index} className='ml-8'>
+                        <Link className='text-black cursor-pointer text-xl font-light transition-all duration-100 hover:border-b-2 border-amber-900 ' to={route.to}>
                             {route.label}
                         </Link>
                     </li>
